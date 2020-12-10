@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hyeonmin_Park</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto;
+}
+
+
+/*--------------Navigation----------- */
+/*----------------------------------- */
+
+nav {
+    display: block;
+    width: 80%;
+    margin: 50px auto 0;
+    text-align: center;
+    font-size: 0.9rem;
+
+}
+
+.home {
+    color: #FF7E5F;
+}
+
+nav a {
+    padding: 0 10px;
+    color: rgba(100, 100, 100);
+}
+
+nav a:hover{
+    color: #765285;
+    font-weight: 700;
+}
+
+.border {
+    border-right: 1px solid rgb(100, 100, 100);
+
+}
+
+@media only screen and (min-width: 780px) {
+    nav {
+        font-size: 1rem;
+    }
+}
+
+/*------------Main Page-------------- */
+/*----------------------------------- */
+.intro {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin: 70px auto 0;
+    border-radius: 50%;
+    background-color: rgb(53, 28, 77);
+}
+
+.intro_contents1 {
+    display: block;
+    padding-top: 90px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+}
+
+.intro_contents1 h4 {
+    font-size: 1rem;
+}
+
+.intro_contents1 h1 {
+    font-size: 2rem;
+}
+
+.intro_contents2 {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #777;
+}
+.movedown {
+    display: block;
+    width: 50%;
+    text-align: center;
+    margin: 10px auto;
+    color: rgba(129, 129, 129, 0.5);
+}
+
+@media only screen and (min-width: 780px){
+    .intro {
+        width: 400px;
+        height: 400px;
+    }
+    .intro_contents1 {
+        padding-top: 140px;
+        line-height: 50px;
+    }
+
+    .intro_contents1 h4 {
+        font-size: 1.5rem;
+    }
+
+    .intro_contents1 h1 {
+        font-size: 4rem;
+    }
+
+    .intro_contents2 {
+        line-height: 50px;
+        font-size: 2rem;
+    }
+
+}
+
+
+/*------------Project Page----------- */
+/*----------------------------------- */
+
+.project {
+    display: block;
+    margin-top: 50px;
+    color: white;
+    background-image: linear-gradient(rgba(53, 28, 77, 0.3), rgba(53, 28, 77, 0.5)), url(https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8bGFuZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+}
+.project-item {
+    display: block;
+    margin-top: 45px;
+}
+
+h3 {
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgb(53, 28, 77);
+}
+
+.card {
+    margin:0 auto 1em auto;
+    width: 90%;
+}
+
+.row {
+    margin-top: 80px;
+}
+
+.btn {
+    color: #765285;
+}
+
+
+/*------------About Page----------- */
+/*--------------------------------- */
+
+.about {
+    display: block;
+    margin: 50px auto 0 auto;
+    width: 100%;
+    height: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1581130817250-98a1c159d4d8?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDJ8fGxhbmR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.comments {
+    display: block;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 0.3rem;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width: 780px){
+    .about {
+        margin-top: 100px;
+        height: 500px;
+    }
+
+
+    .comments {
+        display: block;
+        padding-top: 300px;
+        color: white;
+        text-align: center;
+        font-size: 1.6rem;
+        line-height: 1.5;
+    }
+}
+
+/*-------------Footer-------------- */
+/*--------------------------------- */
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #351C4D;
+    color: white;
+}
+.contacts {
+    display: block;
+    width: 80%;
+    padding-top: 35px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer a {
+    display: inline-block;
+    color: white;
+    padding-right: 20px;
+}
+
+footer a:hover {
+    color:
+}
+
+@media only screen and (min-width: 780px){
+    footer {
+        height: 200px;
+    }
+
+    .contacts {
+        padding-top: 70px;
+        font-size: 2rem;
+
+    }
+}
+</style>
+    </head>
+    <body>
+        <nav>
+            <a href="#" id="home" class="home">HOME</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#about">CONTACTS</a>
+        </nav>
+        <section class="intro">
+            <div class="intro_contents1">
+                <h5>Web Developer</h5>
+                <h1>MIN PARK</h1>
+            </div>
+        </section>
+
+            <div>
+                <p class="movedown"><i class="fas fa-sort-down fa-5x"></i></p>
+            </div>
+        <section>
+
+            <div class="intro_contents2">
+                <p>Hello !</p>
+                <p>Create Together, Better Works </p>
+            </div>
+        </section>
+
+            <div>
+                <p class="movedown"><i class="fas fa-sort-down fa-5x"></i></p>
+            </div>
+
+        <div id="projects" class="jumbotron jumbotron-fluid project">
+            <div class="container text-center project-item">
+                <h3>LASTEST PROJECTS</h3>
+                <h5> The Next Project Will Be Yours</h5>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8dmVnZXRhYmxlfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="business">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Fresh Table
+                            </h5>
+                            <p class="card-text">
+                                Front-end work for Fresh Vegetable delivery Company
+                            </p>
+                            <a class="btn btn-outline btn-xs" href="#">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1536319229365-83318cdc7b83?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NDJ8fGNvZmZlfGVufDB8fDB8&auto=format&fit=crop&w=500&q=60" alt="coffeeshop">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                COLD COFFEE
+                            </h5>
+                            <p class="card-text">
+                                Morbi tempor urna libero, a aliquet libero rhoncus vitae.
+                            </p>
+                            <a class="btn btn-outline btn-xs" href="#">More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="card text-center">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTN8fHJlc3RhdXJhbnR8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="restaurant">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                AUTHENTIC DINER
+                            </h5>
+                            <p class="card-text">
+                                Morbi tempor urna libero, a aliquet libero rhoncus vitae.
+                            </p>
+                            <a class="btn btn-outline btn-xs" href="#">More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="about" id="about">
+            <div class="comments">
+                <h2>
+                	Thank you for visiting my website.
+                	I look forward to hearing from you!
+                </h2>
+            </div>
+        </section>
+
+        <footer>
+            <div class="contacts">
+                <a class="home" href="#home"><i class="fas fa-home fa-2x"></i></a>
+                <a href="#"><i class="fas fa-at fa-2x"></i></a>
+                <a href="#"><i class="fab fa-github fa-2x"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+            </div>
+        </footer>
+
+</html>
